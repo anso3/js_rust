@@ -1,0 +1,19 @@
+[package]
+name = "raws"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "bootstrap"
+path = "src/main.rs"
+
+[dependencies]
+aws-config = "^0.3"
+tokio = {version = "1", feature = ["full"]}
+lambda_runtime = "^0.4"
+serde_json = "^1"
+serde = "^1"
+simple_logger = "^1"
+js-sandbox = "0.1.6"
