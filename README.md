@@ -10,5 +10,4 @@ Exercise {
 
 }
 
-Responds 
-With result of function ran with data as parameters. 
+Responds with result of function ran with data as parameters. 
