@@ -1,6 +1,6 @@
 # js_rust
 
-Base AWS lamda to run JS in a sandbox. 
+AWS lamda to run JS in a sandbox. 
 
 Recieves JSON
 Exercise {
